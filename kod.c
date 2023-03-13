@@ -14,6 +14,9 @@ unsigned char n;
 unsigned char flag;
 unsigned int broj1,broj2;
 
+int brojac = 1;
+float sabirak = 0;
+
 void initUART1(void)
 {
     U1BRG = 0x0040; // BAUDRATE = 9600
