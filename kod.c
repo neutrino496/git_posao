@@ -4,6 +4,8 @@
 
 #define BUFFER_SIZE 4 // DOROS = 5 - 1 = 4
 
+#define kuca 6
+
 _FOSC(CSW_FSCM_OFF & XT_PLL4);
 _FWDT(WDT_OFF);
 
